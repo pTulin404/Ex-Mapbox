@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex_Popwebmap</title>
+
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+</head>
+
+<body>
+
+    <div id="map"></div>
+
+    <div style="
+    position:absolute;
+    top:10px;
+    left:5px;
+    background:white;
+    padding:10px;
+    border-radius:8px;
+    box-shadow:0 0 8px rgba(0,0,0,0.2);
+    font-family:sans-serif;
+  ">
+        <label>
+            <input type="checkbox" id="toggle-lakes" checked>
+            Lakes
+        </label><br>
+
+        <label>
+            <input type="checkbox" id="toggle-urban-areas" checked>
+            Urban Areas
+        </label><br>
+    </div>
+
+
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
